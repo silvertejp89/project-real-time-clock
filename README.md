@@ -2,7 +2,7 @@
 This is an exercise foccusing on the useState hook in react, creating a site that shows the current time. 
 
 ## The problem
-I used the starter code from a Udemy challenge, the goal is that you can fetch the latest time and displaying it by pressing a button. Part to of the challenge was to get the time to be automatically updated every second. I chose to create another button to be able to use both functions on the site. 
+I used the starter code from a Udemy challenge, the goal is that you can fetch the latest time and displaying it by pressing a button. Part two of the challenge was to get the time to be automatically updated every second. I chose to create another button to be able to use both functions on the site. 
 
 ## How I did it
 * I created a const = useState to be able to hold the time, and set the starting value to 00:00:00
