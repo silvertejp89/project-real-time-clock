@@ -14,7 +14,7 @@ I used the starter code from a Udemy challenge, the goal is that you can fetch t
 * Added some styling.
 
 ## What I learned
-Gained some muscle memory regarding using the useState-hook, and appreciated the repetition of destructuring arrays. 
+Gained some muscle memory regarding using the useState-hook, and appreciated the repetition of destructuring arrays. It would be nice to add some conditions to the buttons, and being able to stop and reset the clock.  
 
 ## View it live
 https://kriss-real-time-clock.netlify.app/
