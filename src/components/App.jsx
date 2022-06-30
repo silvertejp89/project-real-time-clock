@@ -5,16 +5,20 @@ function App() {
 
   const [time, setTime] = useState('00:00:00');
 
-  function upDateTime() {
+  function updateTime() {
     const newTime = new Date().toLocaleTimeString('en-GB');
     setTime(newTime);
   }
 
+  function startClock() {
+    setInterval(updateTime, 1000);
+  }
+
   return (
     <div className="container">
-      <button onClick={upDateTime}>Get Time</button>
+      <button onClick={updateTime}>Get Time</button>
       <h1> {time} </h1>
-      <button>Start Clock</button>
+      <button onClick={startClock}>Start Clock</button>
     </div>
   );
 }
