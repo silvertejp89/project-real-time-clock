@@ -7,7 +7,7 @@ I used the starter code from a Udemy challenge, the goal is that you can fetch t
 ## How I did it
 * I created a const = useState to be able to hold the time, and set the starting value to 00:00:00
 * Wrote a function (updateTime) that fetches current time with new Date. and updates the state of time, connected it to the "Get time"-button with onClick. 
-* Set the H1 to display current state of time. 
+* Set the h1 to display current state of time. 
 
 * Wrote a function that called the updateTime-function every second with setinterval(1000)
 * Created another button: "start clock"
