@@ -17,6 +17,9 @@ function App() {
       <button onClick={updateTime}>Get Time</button>
       <h1> {time} </h1>
       <button onClick={startClock}>Start Clock</button>
+      <a href="https://github.com/silvertejp89/project-real-time-clock">
+        view the code on github
+      </a>
     </div>
   );
 }
