@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 function App() {
-  // const now = new Date().toLocaleTimeString('en-GB');
-
   const [time, setTime] = useState('00:00:00');
 
   function updateTime() {
@@ -24,6 +22,4 @@ function App() {
 }
 
 export default App;
-
-//button own component?
 
