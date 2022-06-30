@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 //Challenge:
 //1. Given that you can get the current time using:
@@ -20,3 +20,4 @@ console.log(time);
 //   console.log("Hey");
 // }
 // setInterval(sayHi, 1000);
+

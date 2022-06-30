@@ -4,12 +4,17 @@ body {
   padding: 50px;
   width: 300px;
   margin: 0 auto;
-  background-color: #374954;
+  background-color: #FEA2CB;
+  background-image: url("clock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:left;
   text-align: center;
 }
 
 h1 {
   font-size: 100px;
+  text-shadow: 4px 3px 0 #7A7A7A;
 }
 
 .container {
@@ -18,10 +23,10 @@ h1 {
 
 button {
   display: inline;
-  background-color: #6bbe92;
+  background-color: #f9b942;
   border: 0;
   border-radius: 10px;
-  box-shadow: 5px;
+  box-shadow: 4px 3px 0 #7A7A7A;
   margin: 10px;
   text-align: center;
   color: #fff;

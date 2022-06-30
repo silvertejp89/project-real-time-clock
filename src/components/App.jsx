@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 
 function App() {
   return (
     <div className="container">
-      <h1>TIME</h1>
       <button>Get Time</button>
+      <h1>12:15</h1>
+      <button>Start Clock</button>
     </div>
   );
 }
 
 export default App;
+
