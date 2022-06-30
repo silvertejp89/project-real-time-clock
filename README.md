@@ -17,4 +17,4 @@ I used the starter code from a Udemy challenge, the goal is that you can fetch t
 Gained some muscle memory regarding using the useState-hook, and appreciated the repetition of destructuring arrays. 
 
 ## View it live
-kriss-real-time-clock.netlify.app
+https://kriss-real-time-clock.netlify.app/
